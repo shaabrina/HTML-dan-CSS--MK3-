@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        img {
+            width: 200px;
+            height: 200px;
+
+            /* display digunakan untuk membuat gambar di tengah */
+            display: block;
+            /* margin digunakan untuk mengatur jarak atas, bawah, kanan, dan kiri */
+            margin: 0px auto 0px auto;
+        }
+
+        /* selector digunakan untuk memilih bagian dari html yang akan di uabh */
+        /* selector tag */
+        h1{
+            color: pink;
+        }
+
+        /* selector id */
+        #judul{
+            color: rgb(139, 74, 84);
+        }
+
+        /* selector class */
+        .tengah{
+            align-self: center;
+            color: rgb(235, 113, 133);
+        }
+
+        /* multi selector (lebih dari 1) */
+        h2, h3, h4{
+            color: pink;
+        }
+
+        /* dapat lebih detail/spesifik */
+        h2.tengah {
+            color: pink;
+        }
+    </style>
+</head>
+<body>
+    <img src="picture/webcam-toy-photo412.jpg" alt="">
+    
+    <!-- id dugunakan untuk memberikan tanda khusus pada elemen (tidak boleh sama) -->
+    <h1 id="judul">INI JUDUL</h1>
+
+    <!-- class dapat dipakai berkali kali, kalau id tidak -->
+    <h1 class="tengah">INI JUDUL 3</h1>
+    <h2 class="tengah">HALO</h2>
+    <h3>halo 3</h3>
+</body>
+</html>

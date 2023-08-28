@@ -1,0 +1,86 @@
+h1{
+    color: #ffa6b5;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    text-align: center;
+}
+
+p{
+    text-indent: 30px;
+    line-height: 1.5;
+    font-size: 16px;
+    color: #ffbcc8;
+    font-family: Verdana;
+}
+
+li{
+    color: #e17385;
+    font-size: 12px;
+    font-family: cursive;
+}
+
+
+/* hyperlink dan button */
+a:link{
+    color: pink;
+}
+a:visited{
+    color: #e17385;
+}
+a:hover{
+    color: #ffa6b5;
+}
+a:active{
+    color: #964451;
+}
+
+.button{
+    border-radius: 5px;
+    border: none;
+    background-color: bisque;
+    color: #f09090;
+    text-align: center;
+    font-size: 28px;
+}
+.button:hover{background-color: #ffbcc8;}
+.button:active{
+    background-color: beige;
+    box-shadow: 0 5px #666;
+}
+
+table {
+    border-collapse: collapse;
+    font-family: Verdana;
+}
+
+td:first-child {
+    width: 50px;
+}
+
+td:not(:first-child) {
+    width: 100px;
+    border-bottom: 1px;
+}
+
+/* merubah warna setiap baris tabel */
+tbody tr:nth-child(odd){
+    background-color: #ffbcc8;
+    color: #e17385;
+}
+
+tbody tr:nth-child(even){
+    background-color: #f4899b;
+    color: #ffbcc8;
+}
+
+/* merubah warna pada batis pertama tabel */
+thead tr:first-child{
+    background-color: #e17385;
+    color: #ffecef;
+}
+
+/* merubah warna table pada saat terkena kursor */
+td:hover{
+    background-color: #ffecef;
+    color: #f09090;
+}
